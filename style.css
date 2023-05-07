@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+ .head1{
+    font-style: italic;
+    color: purple;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    }
+p{
+    font-size: 20px;
+    text-align: center;
+}
+    input,textarea{
+        border:2px solid black;
+        border-radius:6px;
+        outline:none;
+        display:block;
+        width: 80%;
+        margin: 11px auto;
+        padding:7px;
+        font-size:16px;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btn{
+        color:white;
+        background:purple;
+        padding:15px;
+        font-size:20px;
+        border:2px solid white;
+        border-radius:13px;
+        cursor:pointer;
+    }   
+    .bg{
+        
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        height: 100vh;
+        background-repeat:no-repeat;
+        background-size: cover;
+        opacity: 1;
+    }
+    .submitMsg{
+        color: green;
+    }
+    h2{
+        font-size: 20px;
+        text-align:left;
+        
+    }
+    
